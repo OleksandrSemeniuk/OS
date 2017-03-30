@@ -63,7 +63,7 @@ Particle.prototype = {
 
 };
 
-logo.src = "data:image/png;base64,https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyLlIFxtXqKunFD_MLJ0acsGYlFmv-9FFkM48scM6cvzykJiEh5g";
+logo.src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyLlIFxtXqKunFD_MLJ0acsGYlFmv-9FFkM48scM6cvzykJiEh5g";
 
 logo.onload = function(){
 	var 
