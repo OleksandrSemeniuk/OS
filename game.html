@@ -6,6 +6,17 @@
 canvas {
     border:1px solid #d3d3d3;
     background-color: #2E9AFE;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 }
 </style>
 </head>
@@ -130,11 +141,13 @@ function accelerate(n) {
 }
 </script>
 <br>
-<button <button style=" height:100px; width:100px; border-radius: 50px;  border: 1px solid #000; background-color:red; margin: 0;    position: absolute;    top: 90%;    left: 50%;    transform: translate(-50%, -50%);" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<button style=" height:100px; width:100px; border-radius: 50px;  border: 1px solid #000; background-color:red; margin: 0;    position: absolute;    top: 90%;    left: 50%;    transform: translate(-50%, -50%);" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+
 
 </script>
 <br>
 <button onmousedown="location.reload();" >Try again</button>
-    
+ 
+
 </body>
 </html>
